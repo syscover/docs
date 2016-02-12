@@ -1,0 +1,28 @@
+// realizar un pull desde otra ubicación
+git --git-dir="httpdocs/.git" --work-tree=/var/www/vhosts/dev.ruralka.com/httpdocs pull
+
+// realizar un clone de una rama en concreto
+git clone -b master https://github.com/syscover/ruralka.com.git httpdocs
+
+// crear una nueva rama en local
+git checkout -b developer
+
+// mandar la nueva rama al repositorio remoto
+git push origin developer
+
+
+// Metodos para borrar cambios aún a falta de hacer commit
+// save files in staged area
+git stash save --keep-index
+
+// drop files in  
+git stash drop
+
+
+// borrado de un directorio remoto, una vez añadido a .gitignore
+git rm -r --cached some-directory
+git commit -m 'Remove the now ignored directory "some-directory"'
+git push origin master
+
+
+

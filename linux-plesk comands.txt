@@ -1,0 +1,19 @@
+Comandos útiles
+
+# muestra un log en tiempo real de o que ocurreo con cada correo
+plesk log maillog
+
+# email de test
+echo TEST | mail -s "test" cpalacin@syscover.com
+
+# volver a generar la configuración de un domino en plexk
+usr/local/psa/admin/sbin/httpdmng --reconfigure-domains car4trader.com
+
+#encontrar todos los ficheros php que solo contengan minúsculas
+find . -name  "*.php" |grep -v [A-Z]
+
+#borrar todos los ficheros que terminen por suspected
+find . -name  "*suspected" -exec rm {} \;
+
+#copiar todo el contenido de un directorio en otro
+cp -R /mnt/nfs/s17/* /var/lib/psa/dumps
