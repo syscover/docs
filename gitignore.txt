@@ -4,6 +4,7 @@
 # -- Pulsar -----------------------------------------
 /config/api.php
 /config/cms.php
+/config/crm.php
 /config/comunik.php
 /config/cron.php
 /config/forms.php
