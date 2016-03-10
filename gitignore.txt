@@ -13,6 +13,8 @@
 /config/market.php
 /config/pulsar.php
 
+/tests/shopping_cart_tests_helpers/
+/tests/CartPrividerTest.php
 
 # -- Laravel -----------------------------------------
 .env
