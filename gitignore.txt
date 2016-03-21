@@ -17,6 +17,8 @@
 /tests/CartPrividerTest.php
 
 # -- Laravel -----------------------------------------
+Homestead.yaml
+Homestead.json
 .env
 !/database/
 /database/migrations/*
