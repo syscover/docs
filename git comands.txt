@@ -15,7 +15,7 @@ git push origin developer
 // save files in staged area
 git stash save --keep-index
 
-// drop files in  
+// borra los cambios que están en el stash
 git stash drop
 
 
@@ -31,5 +31,5 @@ git remote -v
 # origin  https://github.com/user/repo.git (fetch)
 # origin  https://github.com/user/repo.git (push)
 
+// cambiar la referencia del repositorio remoto
 git remote set-url origin https://github.com/user/repo2.git
-# Change the 'origin' remote's URL
