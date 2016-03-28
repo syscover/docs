@@ -11,6 +11,7 @@
 /config/cron.php
 /config/forms.php
 /config/hotels.php
+/config/spas.php
 /config/langlocale.php
 /config/market.php
 /config/pulsar.php
