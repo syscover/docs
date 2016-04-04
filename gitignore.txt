@@ -18,6 +18,9 @@
 
 /tests/shopping_cart_tests_helpers/
 /tests/CartPrividerTest.php
+/tests/PulsarTest.php
+
+/database/factories/PulsarModelFactory.php
 
 # -- Laravel -----------------------------------------
 Homestead.yaml
@@ -102,6 +105,3 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
-
-
-
