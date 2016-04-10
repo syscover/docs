@@ -1,13 +1,4 @@
-Comandos útiles
-
-# muestra un log en tiempo real de o que ocurreo con cada correo
-plesk log maillog
-
-# email de test
-echo TEST | mail -s "test" cpalacin@syscover.com
-
-# volver a generar la configuración de un domino en plexk
-usr/local/psa/admin/sbin/httpdmng --reconfigure-domains car4trader.com
+Comandos útiles linux
 
 # encontrar todos los ficheros php que solo contengan minúsculas
 find . -name  "*.php" |grep -v [A-Z]

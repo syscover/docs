@@ -1,0 +1,10 @@
+Comandos útiles PLESK
+
+# muestra un log en tiempo real de o que ocurreo con cada correo
+plesk log maillog
+
+# email de test
+echo TEST | mail -s "test" my@mydomain.com
+
+# volver a generar la configuración de un domino en plexk
+usr/local/psa/admin/sbin/httpdmng --reconfigure-domains mydomain.com
