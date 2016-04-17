@@ -23,6 +23,9 @@
 
 /database/factories/PulsarModelFactory.php
 
+/resources/lang/en/validation.php
+/resources/lang/es/validation.php
+
 # -- Laravel -----------------------------------------
 Homestead.yaml
 Homestead.json
