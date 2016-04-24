@@ -2,3 +2,12 @@ Consultas SQL curiosas
 
 # Actualizar una columna de una tabla con los datos de otra columna de la misma tabla
 UPDATE 012_116_order as order1 JOIN 012_116_order as order2 ON order1.id_116 = order2.id_116 SET order1.date_text_116 = DATE_FORMAT(FROM_UNIXTIME(order2.date_116), '%d-%m-%Y %H:%i')
+
+# Manejo de fechas
+UPDATE 008_078_request as order1 JOIN 008_078_request as order2 ON order1.id_078 = order2.id_078 SET order1.date_078 = UNIX_TIMESTAMP(order2.date_text_078)
+UPDATE 008_078_request as order1 JOIN 008_078_request as order2 ON order1.id_078 = order2.id_078 SET order1.date_text_078 = DATE_FORMAT(FROM_UNIXTIME(order2.date_078), '%d-%m-%Y')
+
+UPDATE 008_078_request SET expiration_078 = NULL WHERE expiration_078 = 0
+
+UPDATE 008_078_request as order1 JOIN 008_078_request as order2 ON order1.id_078 = order2.id_078 SET order1.expiration_078 = UNIX_TIMESTAMP(order2.expiration_text_078)
+UPDATE 008_078_request as order1 JOIN 008_078_request as order2 ON order1.id_078 = order2.id_078 SET order1.expiration_text_078 = DATE_FORMAT(FROM_UNIXTIME(order2.expiration_078), '%d-%m-%Y')
