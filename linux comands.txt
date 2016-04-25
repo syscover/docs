@@ -9,5 +9,8 @@ find . -name  "*suspected" -exec rm {} \;
 # copiar todo el contenido de un directorio en otro
 cp -R /mnt/nfs/s17/* /var/lib/psa/dumps
 
+# borrar todos los archivos y subdirectorios de un directorio
+rm -fr /mnt/nfs/s17/*
+
 # ejecutar composer json desde una version de php distinta y con un fichero de contfiguración distinto al de por defecto
 COMPOSER=composer.server.json /opt/plesk/php/5.5/bin/php /usr/local/bin/composer update
