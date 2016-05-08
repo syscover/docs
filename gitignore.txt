@@ -13,6 +13,7 @@
 /config/hotels.php
 /config/spas.php
 /config/wineries.php
+/config/booking.php
 /config/langlocale.php
 /config/market.php
 /config/pulsar.php
