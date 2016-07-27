@@ -15,6 +15,7 @@
 /config/wineries.php
 /config/booking.php
 /config/langlocale.php
+/config/shoppingcart.php
 /config/market.php
 /config/pulsar.php
 
