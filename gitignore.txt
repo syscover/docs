@@ -28,6 +28,8 @@
 /resources/lang/en/validation.php
 /resources/lang/es/validation.php
 
+/storage/exports/
+
 # -- Laravel -----------------------------------------
 Homestead.yaml
 Homestead.json
