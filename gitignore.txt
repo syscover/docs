@@ -18,6 +18,8 @@
 /config/shoppingcart.php
 /config/market.php
 /config/pulsar.php
+/config/google_api.php
+/config/excel.php
 
 /tests/shopping_cart_tests_helpers/
 /tests/CartProviderTest.php
