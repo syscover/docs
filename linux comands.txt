@@ -13,4 +13,7 @@ cp -R /mnt/nfs/s17/* /var/lib/psa/dumps
 rm -rf /var/lib/psa/dumps/*
 
 # ejecutar composer json desde una version de php distinta y con un fichero de contfiguración distinto al de por defecto
-COMPOSER=composer.server.json /opt/plesk/php/5.5/bin/php /usr/local/bin/composer update
+COMPOSER=composer.server.json /opt/plesk/php/5.6/bin/php /usr/local/bin/composer update
+
+# publicar ficheros de paquetes
+/opt/plesk/php/5.6/bin/php artisan vendor:publish
