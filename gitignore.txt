@@ -33,6 +33,11 @@
 
 /storage/exports/
 
+# -- Angular -----------------------------------------
+/node_modules/*
+/typings/*
+/bower_components/*
+
 # -- Laravel -----------------------------------------
 Homestead.yaml
 Homestead.json
