@@ -4,8 +4,14 @@ git --git-dir="httpdocs/.git" --work-tree=/var/www/vhosts/dev.ruralka.com/httpdo
 // realizar un clone de una rama en concreto
 git clone -b master https://github.com/syscover/ruralka.com.git httpdocs
 
-// crear una nueva rama en local
+// crear una nueva rama en local y cambiarse
 git checkout -b developer
+
+// cambiarse de rama
+git checkout nombre_rama_a_cambiarse
+
+// borra una rama
+git branch -d nombre_rama_a_borrar
 
 // mandar la nueva rama al repositorio remoto
 git push origin developer
