@@ -20,3 +20,7 @@ COMPOSER=composer.server.json /opt/plesk/php/5.6/bin/php /usr/local/bin/composer
 
 # publicar ficheros de paquetes
 /opt/plesk/php/5.6/bin/php artisan vendor:publish
+
+# ultimas versiones de plexo
+/opt/plesk/php/7.1/bin/php /usr/lib64/plesk-9.0/composer.phar update
+/opt/plesk/php/7.1/bin/php /usr/lib/plesk-9.0/composer.phar update
